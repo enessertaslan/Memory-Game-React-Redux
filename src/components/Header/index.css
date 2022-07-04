@@ -1,0 +1,46 @@
+.header-container{
+    width: 50%;
+    font-family: 'Titan One', cursive;
+    color: rgb(228, 228, 15);
+    margin:auto;
+   
+}
+.header{
+    justify-content: center;
+    display: flex;
+    margin:auto;
+    font-weight: 600;
+    font-size: 3rem;
+    -webkit-text-stroke: 1px black;
+    padding-bottom: 10px;
+
+}
+.points{
+    width: 80px;
+   font-size: 2rem;
+   text-align: left;
+}
+.round{
+    width: 80px;
+    font-size: 2rem;
+}
+.points-round{
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10px;
+}
+.reset-button{
+    width: 150px;
+    padding: 5px 5px 5px 5px;
+    background-color:rgb(204, 23, 17);
+    height: 20px;
+    line-height: 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    }
+.reset-button:hover{
+    background-color:rgb(226, 80, 75);
+}
